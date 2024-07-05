@@ -9,6 +9,7 @@ public class Wolf extends Animal{
         this.age = age;
     }
 
+    @Override
     public void print() {
         System.out.println("Is a wolf"+" with color "+color+" his favorite food "+favoriteFood+" and his age "+age);
     }
